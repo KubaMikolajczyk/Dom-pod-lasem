@@ -1,0 +1,58 @@
+/*---------------------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------------------*/
+
+/*
+basic website colour are:
+green: #2ecc71;
+white: #fff;
+grey: #555;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Open Sans', 'Arial' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*---------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*---------------------------------------------*/
+
+section { padding: 80px 0; }
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box { padding: 1% }
+
+/*-------HEADINGS-------*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
