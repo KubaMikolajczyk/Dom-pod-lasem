@@ -63,7 +63,7 @@ h3 {
 /*---------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(back_img/hero.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(back_img/hero.JPG);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -82,13 +82,13 @@ header {
 .main-nav {
    padding: 0;
    list-style: none;
-   margin-top: 55px;
+   margin-top: 25px;
    float: right;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
     position: relative;
 }
 
@@ -97,7 +97,7 @@ header {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 70%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
     padding: 8px 0;
@@ -113,7 +113,7 @@ header {
 .language_select {
     position: absolute;
     border: 1px solid #fff;
-    padding: 7px 15px;
+    padding: 5px 10px;
 }
 
 .language_select a:before {
@@ -145,7 +145,7 @@ header {
 }
 
 .language_select_children {
-    min-width: 100%;
+    min-width: 103%;
     position: absolute;
     top: -1px;
     right: -1px;
@@ -156,9 +156,11 @@ header {
 }
 
 .language_select_children> li {
-        text-align: right;
+        text-align: center;
         margin-left: 0;
         padding: 5px;
+        font-size: 85%;
+        width: 100%
     }
 .language_select_children:hover > li,
 .language_select_children:active > li,
