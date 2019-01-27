@@ -54,7 +54,7 @@ section { padding: 80px 0; }
 h1,
 h2,
 h3 {
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -70,6 +70,24 @@ h1 {
     white-space: nowrap;
     margin-top: 0.2em;
     margin-bottom: 0.40em; 
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #28b062;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 /*-------BUTTONS-------*/
@@ -112,8 +130,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(back_img/hero.JPG);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-/*  background-attachment: fixed; */
+    height: 110vh;
+    background-attachment: fixed;
 }
 
 .text-logo {
@@ -226,7 +244,7 @@ header {
 .hero-text-box {
     margin: 0 auto;
     text-align: center;
-    margin-top: 10%
+    margin-top: 8%;
 }
 
 .hero-text-box img{
@@ -255,4 +273,20 @@ header {
     height: 70px;
     fill: rgba(204, 204, 204, 0.35);
     
+}
+
+/*---------------------------------------------*/
+/*SECTION ROOMS*/
+/*---------------------------------------------*/
+
+.section-rooms {
+    background-color: #f4f4f4;
+}
+
+.rooms-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 90%;
+    text-align: center;
 }

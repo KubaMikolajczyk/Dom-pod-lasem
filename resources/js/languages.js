@@ -20,6 +20,10 @@ function TransMod() {
     library["pl"]["translatable.title-desc"] = "Nasz dom w samym sercu mazur to idealne <br> miejsce na wypoczynek.";
     library["pl"]["translatable.hero-btn"] = "Chcę odpocząć!";
 	
+    /* rooms section */
+    library["pl"]["translatable.rooms-head"] = "Nasz dom wewnątrz";
+    library["pl"]["translatable.rooms-copy"] = "Nasz dom składa się z parteru oraz piętra. Do dyspozycji naszych gości są 2 pokoje, 2 łazienki, salon oraz kuchnia. Dom otacza ogród, a rosnące w nim świerki, sosny, krzewy, tworzą zapewniają jednocześnie intymność i spokój.";
+    
     
     /* ENGLISH TRANSLATION */
 	library["en"] = new Array();
@@ -36,6 +40,9 @@ function TransMod() {
     library["en"]["translatable.title-desc"] = "Our house in the heart of Mazury is a perfect place <br> for your vacation";
     library["en"]["translatable.hero-btn"] = "I want to go there!";
 	
+    /* rooms section */
+    library["en"]["translatable.rooms-head"] = "Our house inside";
+    library["en"]["translatable.rooms-copy"] = "Our house ha a ground floor and a first floor. There are 2 rooms on the first floor, 2 bathrooms - one on each floor and a living room downstairs with a fully equipped kitchen. House is surrounded by trees which creates intimate and peacefull atmosphere for our guests.";
     
     /* GERMAN TRANSLATION */
 	library["de"] = new Array();
@@ -51,6 +58,9 @@ function TransMod() {
     library["de"]["translatable.title"] = "";
     library["de"]["translatable.title-desc"] = "";
     library["de"]["translatable.hero-btn"] = "";
+    
+    /* rooms section */
+    library["de"]["translatable.rooms-head"] = "";
 }
 
 {
@@ -69,7 +79,10 @@ function TransMod() {
         $("#title").html(langModule.translate(lang, $("#title").attr("data-token")));
         $("#title-desc").html(langModule.translate(lang, $("#title-desc").attr("data-token")));
         $("#hero-btn").html(langModule.translate(lang, $("#hero-btn").attr("data-token")));
-		
+        
+        /* room sections selectors */
+		$("#rooms-head").html(langModule.translate(lang, $("#rooms-head").attr("data-token")));
+        $("#rooms-copy").html(langModule.translate(lang, $("#rooms-copy").attr("data-token")));
 	}	
 	
 	InitStaticText("pl");
