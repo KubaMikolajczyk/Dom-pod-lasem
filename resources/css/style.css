@@ -57,6 +57,18 @@ h3 {
     text-transform: uppercase;
 }
 
+h1 {
+    display: inline-block;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    white-space: nowrap;
+}
+
 
 /*---------------------------------------------*/
 /*HEADER*/
@@ -168,3 +180,10 @@ header {
     cursor: pointer
 }
 
+/* hero text box */
+
+.hero-text-box {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%
+}
