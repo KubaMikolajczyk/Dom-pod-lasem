@@ -56,3 +56,16 @@ h3 {
     font-weight: 300;
     text-transform: uppercase;
 }
+
+
+/*---------------------------------------------*/
+/*HEADER*/
+/*---------------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(back_img/hero.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+/*  background-attachment: fixed; */
+}
