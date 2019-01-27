@@ -3,7 +3,7 @@ function TransMod(){
 		return library[lang][token];
 	}
 	
-	var library = new Array();
+	let library = new Array();
 	
     /* POLISH TRANSLATION */
 	library["pl"] = new Array();
@@ -38,10 +38,10 @@ function TransMod(){
 	library["de"]["translatable.nav-5"] = "";
 }
 
-( function(){
+{
 	
 	function InitStaticText(lang){
-		var langModule = new TransMod();
+		let langModule = new TransMod();
 		
         /* Navigation panel selectors */
 		$("#nav-1").html(langModule.translate(lang, $("#nav-1").attr("data-token")));
@@ -63,4 +63,4 @@ function TransMod(){
 		InitStaticText("de");
 	});
 	
-})();
+}
