@@ -1,4 +1,4 @@
-function TransMod(){
+function TransMod() {
 	this.translate = function(lang, token) {
 		return library[lang][token];
 	}
@@ -17,6 +17,8 @@ function TransMod(){
     
     /* hero text box translation */
     library["pl"]["translatable.title"] = "Poczuj się <br> jak w domu! ";
+    library["pl"]["translatable.title-desc"] = "Nasz dom w samym sercu mazur to idealne <br> miejsce na wypoczynek.";
+    library["pl"]["translatable.hero-btn"] = "Chcę odpocząć!";
 	
     
     /* ENGLISH TRANSLATION */
@@ -31,6 +33,8 @@ function TransMod(){
     
     /* hero text box translation */
     library["en"]["translatable.title"] = "It feels <br> just like home! ";
+    library["en"]["translatable.title-desc"] = "Our house in the heart of Mazury is a perfect place <br> for your vacation";
+    library["en"]["translatable.hero-btn"] = "I want to go there!";
 	
     
     /* GERMAN TRANSLATION */
@@ -45,6 +49,8 @@ function TransMod(){
     
     /* hero text box translation */
     library["de"]["translatable.title"] = "";
+    library["de"]["translatable.title-desc"] = "";
+    library["de"]["translatable.hero-btn"] = "";
 }
 
 {
@@ -61,6 +67,8 @@ function TransMod(){
         
         /* hero text box selectors */
         $("#title").html(langModule.translate(lang, $("#title").attr("data-token")));
+        $("#title-desc").html(langModule.translate(lang, $("#title-desc").attr("data-token")));
+        $("#hero-btn").html(langModule.translate(lang, $("#hero-btn").attr("data-token")));
 		
 	}	
 	
