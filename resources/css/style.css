@@ -141,8 +141,7 @@ input[type=submit]:active {
   padding: 0 10px;
   width: 80%;
   height: 110%;
-  background: white;
-  
+  background: #fff;
 }
 
 #big_room_popup,
@@ -171,6 +170,24 @@ input[type=submit]:active {
 
 .close_popup_btn {
     float: right;
+    display: inline-block;
+}
+
+/*------POPUP IMGS--------*/
+
+.img-popup {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+.img-popup img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    display: inline-block;
 }
 
 /*-------BAR-------*/
