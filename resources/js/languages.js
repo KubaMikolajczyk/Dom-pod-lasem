@@ -61,6 +61,7 @@ function TransMod() {
     
     /* rooms section */
     library["de"]["translatable.rooms-head"] = "";
+    library["de"]["translatable.rooms-copy"] = "";
 }
 
 {
