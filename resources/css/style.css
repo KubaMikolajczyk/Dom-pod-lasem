@@ -121,6 +121,18 @@ input[type=submit]:active {
         
 }
 
+/*-------ICONS-------*/
+
+.clickable_icon {
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.clickable_icon:hover {
+    transform: scale(1.15);
+}
+
 /*-------POPUPS-------*/
 
 .popup_content {
