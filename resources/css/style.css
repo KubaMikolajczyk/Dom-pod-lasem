@@ -381,4 +381,22 @@ header {
 }
 
 
+.room-content h2 { text-align: left; }
+.room-content h2:after { 
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+}
 
+.room-content .popup-copy {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.room-content .popup-comment {
+    font-size: 90%;
+    line-height: 145%;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 30px;
+}
