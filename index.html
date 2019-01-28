@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/magnific-popup.css">
         
         <!--   RESOURCES    -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -84,8 +85,17 @@
     </div >
     
     <!--  POPUPS  -->
+    
     <section id="big_room_popup">
-      {{ Popup Content }}
+      <div class="row">
+          <div class="col span-1-of-2">
+              <img class="head_popup_img" src="resources/images/big_room_square.jpg" alt="Duzy pokój">
+          </div>
+          <div class="col span-1-of-2">
+              <h2>This is a room</h2>
+              <p>Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text </p>
+          </div>
+      </div>
       <!-- Add a button to close the popup   (optional) -->
       <button class="big_room_popup_close">Close</button>
     </section>
@@ -106,8 +116,12 @@
     </section>
     
     <!--   JS SRIPTS CONNECTION    -->
+    <!--  EXTERNAL SCRIPTS   -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+      <script src="vendors/js/jquery.magnific-popup.min.js"></script>
+      
+    <!--   MY OWN SCRIPTS   -->
       <script src="resources/js/popups.js"></script>
       <script src="resources/js/languages.js"></script>
        

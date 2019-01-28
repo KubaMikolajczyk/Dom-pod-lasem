@@ -127,9 +127,27 @@ input[type=submit]:active {
   margin: 10px;
   padding: 0 10px;
   width: 60%;
-  height: 60%;
+  height: 80%;
   border: 2px solid #444;
   background: white;
+}
+
+#big_room_popup,
+#small_room_popup,
+#living_room_popup,
+#bathroom_popup{
+  transform: scale(0.8);
+}
+.popup_visible #big_room_popup,
+.popup_visible #small_room_popup,
+.popup_visible #living_room_popup,
+.popup_visible #bathroom_popup{
+  transform: scale(1);
+}
+
+.head_popup_img {
+    width: 80%;
+    height: auto;
 }
 
 /*---------------------------------------------*/
