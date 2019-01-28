@@ -24,6 +24,9 @@
         <title>Dom pod lasem</title>
     </head>
     <body>
+      
+      <div id="page">
+      
        <header>
            <nav class="menu">
                <div class="row">
@@ -61,22 +64,51 @@
                <p class="rooms-copy" id="rooms-copy" data-token="translatable.rooms-copy">Room copy</p>
                <div class="row">
                    <div class="col span-1-of-4 box">
-                       <a href="#"><img src="resources/images/big_room_square.jpg" alt="Duży pokój w domu pod lasem"></a>
+                       <a href="" class="big_room_popup_open"><img src="resources/images/big_room_square.jpg" alt="Duży pokój w domu pod lasem"></a>
                    </div>
                    <div class="col span-1-of-4 box">
-                       <a href="#"><img src="resources/images/small_room_square.jpg" alt="Mały pokój w domu pod lasem"></a>
+                       <a href="" class="small_room_popup_open"><img src="resources/images/small_room_square.jpg" alt="Mały pokój w domu pod lasem"></a>
                    </div>
                    <div class="col span-1-of-4 box">
-                       <a href="#" ><img src="resources/images/living_room_square.jpg" alt="Salon domu pod lasem"></a>
+                       <a href="" class="living_room_popup_open"><img src="resources/images/living_room_square.jpg" alt="Salon domu pod lasem"></a>
                    </div>
                    <div class="col span-1-of-4 box">
-                       <a href="#" ><img src="resources/images/bathroom_square.jpg" alt="Łazienka domu pod lasem"></a>
+                       <a href="" class="bathroom_popup_open"><img src="resources/images/bathroom_square.jpg" alt="Łazienka domu pod lasem"></a>
                    </div>
                </div>
            </div>
        </section>
+       
+       
+    <!--   END OF PAGE CONTAINER    -->
+    </div >
+    
+    <!--  POPUPS  -->
+    <section id="big_room_popup">
+      {{ Popup Content }}
+      <!-- Add a button to close the popup   (optional) -->
+      <button class="big_room_popup_close">Close</button>
+    </section>
+    <section id="small_room_popup">
+      {{ Popup Content }}
+      <!-- Add a button to close the popup   (optional) -->
+      <button class="small_room_popup_close">Close</button>
+    </section>
+    <section id="living_room_popup">
+      {{ Popup Content }}
+      <!-- Add a button to close the popup   (optional) -->
+      <button class="living_room_popup_close">Close</button>
+    </section>
+    <section id="bathroom_popup">
+      {{ Popup Content }}
+      <!-- Add a button to close the popup   (optional) -->
+      <button class="bathroom_popup_close">Close</button>
+    </section>
+    
     <!--   JS SRIPTS CONNECTION    -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+      <script src="resources/js/popups.js"></script>
       <script src="resources/js/languages.js"></script>
        
     </body>
