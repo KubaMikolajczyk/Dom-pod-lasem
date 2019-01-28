@@ -124,12 +124,13 @@ input[type=submit]:active {
 /*-------POPUPS-------*/
 
 .popup_content {
-  margin: 10px;
+  margin-top: 2%;
+  margin-bottom: 5%;
   padding: 0 10px;
-  width: 60%;
-  height: 80%;
-  border: 2px solid #444;
+  width: 80%;
+  height: 110%;
   background: white;
+  
 }
 
 #big_room_popup,
@@ -148,6 +149,28 @@ input[type=submit]:active {
 .head_popup_img {
     width: 80%;
     height: auto;
+    border-radius: 5%;
+}
+
+.small-img {
+    width: 10%;
+    height: auto;
+}
+
+.close_popup_btn {
+    float: right;
+}
+
+/*-------BAR-------*/
+
+.bar:after {
+    display: block;
+    height: 2px;
+    background-color: #28b062;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 /*---------------------------------------------*/

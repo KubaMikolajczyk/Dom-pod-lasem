@@ -65,7 +65,7 @@
                <p class="rooms-copy" id="rooms-copy" data-token="translatable.rooms-copy">Room copy</p>
                <div class="row">
                    <div class="col span-1-of-4 box">
-                       <a href="" class="big_room_popup_open"><img src="resources/images/big_room_square.jpg" alt="Duży pokój w domu pod lasem"></a>
+                       <img src="resources/images/big_room_square.jpg" alt="Duży pokój w domu pod lasem" class="big_room_popup_open">
                    </div>
                    <div class="col span-1-of-4 box">
                        <a href="" class="small_room_popup_open"><img src="resources/images/small_room_square.jpg" alt="Mały pokój w domu pod lasem"></a>
@@ -87,6 +87,10 @@
     <!--  POPUPS  -->
     
     <section id="big_room_popup">
+     <div class="row close_popup_btn">
+         <!-- Add a button to close the popup   (optional) -->
+         <button class="big_room_popup_close">Close</button>
+     </div>
       <div class="row">
           <div class="col span-1-of-2">
               <img class="head_popup_img" src="resources/images/big_room_square.jpg" alt="Duzy pokój">
@@ -96,8 +100,24 @@
               <p>Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text </p>
           </div>
       </div>
-      <!-- Add a button to close the popup   (optional) -->
-      <button class="big_room_popup_close">Close</button>
+      <div class="row">
+          <div class="col span-1-of-4 box">
+              <img src="resources/images/big_room_1.jpg" alt="duży pokój">
+          </div>
+          <div class="col span-1-of-4 box">
+              <img src="resources/images/big_room_2.jpg" alt="duży pokój">
+          </div>
+          <div class="col span-1-of-4 box">
+              <img src="resources/images/big_room_3.jpg" alt="duży pokój">
+          </div>
+          <div class="col span-1-of-4 box">
+              <img src="resources/images/big_room_4.jpg" alt="duży pokój">
+          </div>
+      </div>
+      <div class="row">
+          <div class="bar"><div>
+      </div>
+      
     </section>
     <section id="small_room_popup">
       {{ Popup Content }}
