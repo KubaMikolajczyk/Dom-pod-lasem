@@ -361,6 +361,7 @@ header {
 
 .section-rooms {
     background-color: #f4f4f4;
+    padding-bottom: 90px;
 }
 
 .rooms-copy{
@@ -370,8 +371,6 @@ header {
     font-size: 80%;
     text-align: center;
 }
-
-
 
 
 .box img {
@@ -422,25 +421,22 @@ header {
 /*SECTION ACTIVITIES*/
 /*---------------------------------------------*/
 
+.section-activities {
+    padding-top: 90px;
+}
+
 .bicycle_img{
     width: 1000px;
 }
 
-.section-activities h2 {
-    text-align: right;
-    display: block;
-}
-
-.section-activities h2:after {
-    float: right;
-}
-
-.section-activities p {
+.section-activities .activities-copy {
     padding-top: 20px;
-    justify-content: right;
-    text-align: right;
+    justify-content: center;
+    text-align: center;
     line-height: 145%;
     font-size: 85%;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .activity-text {

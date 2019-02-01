@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/slider.css">
         
         <!--   RESOURCES    -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
@@ -88,13 +89,66 @@
            <div class="row">
                <div class="col span-1-of-2 activity-text">
                     <h2>Jak spędzisz u nas czas?</h2>
-                    <p>W naszym domu każdy znajdzie coś dla siebie. Zapewniamy, że oprócz ciszy i spokoju, znajdziecie u nas mnóstwo aktywności, które umilą wam pobyt w Domu pod lasem </p>
-               </div>
-               <div class="col span-1-of-2">
-                   <img class="bicycle_img" src="resources/images/bicycle.png" alt="bicycle image">
-               </div>
-           </div>
-       </section>
+                    <p class="activities-copy">"W naszym domu każdy znajdzie coś dla siebie. Zapewniamy, że oprócz ciszy i spokoju, znajdziecie u nas mnóstwo aktywności, które umilą wam pobyt w Domu pod lasem"</p>
+                    
+                    
+                    <!--         SLIDER ACTIVITIES          -->
+                    <div id="testim" class="testim">
+                    <!--         <div class="testim-cover"> -->
+                    <div class="wrap">
+
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                        <ul id="testim-dots" class="dots">
+                            <li class="dot active"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li>
+                        </ul>
+                        <div id="testim-content" class="cont">
+
+                            <div class="active">
+                                <div class="ion"><ion-icon name="bicycle"></ion-icon></div>
+                                <h3>Wycieczki rowerowe</h3>
+                                <p>W naszym garażu znajdują się rowery dostępne dla naszych gości. Zachęcamy do zwiedzania okolicy na rowerach.</p>                    
+                            </div>
+
+                            <div>
+                                <div class="ion"><ion-icon name="book"></ion-icon></div>
+                                <h3>Domowa biblioteka</h3>
+                                <p>Zapełniamy nasze półki książkami dla naszych gości. W naszej bibliotece znajdują się pozycje w języku polskim, angielskim i niemieckim.</p>                    
+                            </div>
+
+                            <div>
+                                <div class="ion"><ion-icon name="bonfire"></ion-icon></div>
+                                <h3>Miejsce na ognisko</h3>
+                                <p>W naszym pięknym ogrodzie znajduje się duże miejsce na ognisko. Drewno jest dostępne dla naszych gości.</p>                    
+                            </div>
+
+                            <div>
+                                <div class="ion"><ion-icon name="basketball"></ion-icon></div>
+                                <h3>Zabawki</h3>
+                                <p>Mamy cały zbiór zabawek dla dzieci oraz piaskownicę w ogrodzie - wasze dzieci nie będa się tutaj nudzić.</p>                    
+                            </div>
+
+                            <div>
+                                <div class="ion"><ion-icon name="wifi"></ion-icon></div>
+                                <h3>Darmowe WiFi</h3>
+                                <p>Rozumiemy, że w czasie odpoczynku możecie chcieć obejrzeć film lub odebrać maila - w naszym domu dostępne jest darmowe wifi.</p>                    
+                            </div>
+
+                        </div>
+
+                                </div>
+                        </div>
+
+                       </div>
+                       <div class="col span-1-of-2">
+                           <img class="bicycle_img" src="resources/images/bicycle.png" alt="bicycle image">
+                       </div>
+                   </div>
+               </section>
        
     <!--   END OF PAGE CONTAINER    -->
     </div >
@@ -377,6 +431,8 @@
       <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
       <script src="vendors/js/jquery.magnific-popup.min.js"></script>
       <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+      <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+      <script src="vendors/js/slider.js"></script>
       
     <!--   MY OWN SCRIPTS   -->
       <script src="resources/js/popups.js"></script>
