@@ -417,3 +417,33 @@ header {
     font-style: italic;
     margin-top: 30px;
 }
+
+/*---------------------------------------------*/
+/*SECTION ACTIVITIES*/
+/*---------------------------------------------*/
+
+.bicycle_img{
+    width: 1000px;
+}
+
+.section-activities h2 {
+    text-align: right;
+    display: block;
+}
+
+.section-activities h2:after {
+    float: right;
+}
+
+.section-activities p {
+    padding-top: 20px;
+    justify-content: right;
+    text-align: right;
+    line-height: 145%;
+    font-size: 85%;
+}
+
+.activity-text {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
