@@ -364,7 +364,7 @@ header {
     padding-bottom: 90px;
 }
 
-.rooms-copy{
+.rooms-copy {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
@@ -430,16 +430,26 @@ header {
 }
 
 .section-activities .activities-copy {
-    padding-top: 20px;
+    padding-top: 5px;
     justify-content: center;
     text-align: center;
     line-height: 145%;
     font-size: 85%;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 20px;
+}
+
+.section-activities .activities-head {
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .activity-text {
     padding-right: 2.5%;
     padding-left: 2.5%;
+}
+
+.active p {
+    line-height: 145%;
 }

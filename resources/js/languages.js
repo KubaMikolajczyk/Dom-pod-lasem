@@ -41,6 +41,22 @@ function TransMod() {
     library["pl"]["translatable.popup-content-4"] = "Dwie łazienki - po jednej na piętro. <br> Dolna łazienka jest wyposażona w kabinę prysznicową, toaletę, umywalkę i duże lustro. <br> Łazienka na piętrze zamiast prysznica posiada dużą wannę. <br> Nasz dom jest wyposażony we własny pojemy boiler który nagrzewa wodę tak abyśmy zawsze mogli wykąpać się w ulubionej temperaturze.";
     library["pl"]["translatable.popup-comment-4"] = "&quot; Nasi goście mogą wybrać między szybkim prysznicem a relaksującą kąpielą - niezależnie od wyboru - wszyscy będa zadowoleni! &quot;";
     
+    /* ACTIVITIES SECTION */
+    library["pl"]["translatable.activities-head"] = "Jak spędzisz u nas czas?";
+    library["pl"]["translatable.activities-copy"] = "&quot W naszym domu każdy znajdzie coś dla siebie. Zapewniamy, że oprócz ciszy i spokoju, znajdziecie u nas mnóstwo aktywności, które umilą wam pobyt w Domu pod lasem &quot";
+    
+    /* activities slider */
+    library["pl"]["translatable.activities-slider-head1"] = "Wycieczki rowerowe";
+    library["pl"]["translatable.activities-slider-copy1"] = "W naszym garażu znajdują się rowery dostępne dla naszych gości. Zachęcamy do zwiedzania okolicy na rowerach.";
+    library["pl"]["translatable.activities-slider-head2"] = "Domowa biblioteka";
+    library["pl"]["translatable.activities-slider-copy2"] = "Zapełniamy nasze półki książkami dla naszych gości. W naszej bibliotece znajdują się pozycje w języku polskim, angielskim i niemieckim.";
+    library["pl"]["translatable.activities-slider-head3"] = "Miejsce na ognisko";
+    library["pl"]["translatable.activities-slider-copy3"] = "W naszym pięknym ogrodzie znajduje się duże miejsce na ognisko. Drewno jest dostępne dla naszych gości.";
+    library["pl"]["translatable.activities-slider-head4"] = "Zabawki";
+    library["pl"]["translatable.activities-slider-copy4"] = "Mamy cały zbiór zabawek dla dzieci oraz piaskownicę w ogrodzie - wasze dzieci nie będa się tutaj nudzić.";
+    library["pl"]["translatable.activities-slider-head5"] = "Darmowe WiFi";
+    library["pl"]["translatable.activities-slider-copy5"] = "Rozumiemy, że w czasie odpoczynku możecie chcieć obejrzeć film lub odebrać maila - w naszym domu dostępne jest darmowe wifi.";
+    
     
     /* ENGLISH TRANSLATION */
 	library["en"] = new Array();
@@ -78,6 +94,21 @@ function TransMod() {
     library["en"]["translatable.popup-content-4"] = "Two bathrooms - one on each floor. <br> The bathroom on the ground floor is equipped with a shower cabin, toilet, basin and large mirror. <br> Bathroom on the first floor has bathtub intead of the shower. <br> Our house has it's own water boiler which heats the water so well that each of us can enjoy the bath in your favourite temperature.";
     library["en"]["translatable.popup-comment-4"] = "&quot; Our guests can choose between a fast shower and having a relaxing bath - no matter what you choose - we are sure everyone will be satisfied! &quot;";
     
+    /* ACTIVITIES SECTION */
+    library["en"]["translatable.activities-head"] = "What can you do here?";
+    library["en"]["translatable.activities-copy"] = "&quot In our house everyone can find something for themselves. We can assure you that except of peace and fresh air you will find a lot of fun activities in our house &quot";
+    
+    /* activities slider */
+    library["en"]["translatable.activities-slider-head1"] = "Bicycle trips";
+    library["en"]["translatable.activities-slider-copy1"] = "We have bicycles for our guests hidden in our garage. Mazury on 2 weels are just beautifull.";
+    library["en"]["translatable.activities-slider-head2"] = "Home library";
+    library["en"]["translatable.activities-slider-copy2"] = "We have our own home library filled with books for our guests. Here you can find some books in polish, english and german.";
+    library["en"]["translatable.activities-slider-head3"] = "Garden bonfire";
+    library["en"]["translatable.activities-slider-copy3"] = "We have a special place in our garden for a bonfire. Wood and sticks for sausages (or marshmallows) are aviable for our guests.";
+    library["en"]["translatable.activities-slider-head4"] = "Toys";
+    library["en"]["translatable.activities-slider-copy4"] = "We have a lot of toys for kids to play with and a sandbox in the garden - your kids are going to have a great time.";
+    library["en"]["translatable.activities-slider-head5"] = "Free WiFi";
+    library["en"]["translatable.activities-slider-copy5"] = "We understand that during your stay you might want to watch a movie or answer that one very important mail - therefore we have a free WiFi aviable in our house.";
     
     /* GERMAN TRANSLATION */
 	library["de"] = new Array();
@@ -112,6 +143,22 @@ function TransMod() {
     library["de"]["translatable.popup-comment-3"] = "";
     library["de"]["translatable.popup-content-4"] = "";
     library["de"]["translatable.popup-comment-4"] = "";
+    
+    /* ACTIVITIES SECTION */
+    library["de"]["translatable.activities-head"] = "";
+    library["de"]["translatable.activities-copy"] = "";
+    
+    /* activities slider */
+    library["de"]["translatable.activities-slider-head1"] = "";
+    library["de"]["translatable.activities-slider-copy1"] = "";
+    library["de"]["translatable.activities-slider-head2"] = "";
+    library["de"]["translatable.activities-slider-copy2"] = "";
+    library["de"]["translatable.activities-slider-head3"] = "";
+    library["de"]["translatable.activities-slider-copy3"] = "";
+    library["de"]["translatable.activities-slider-head4"] = "";
+    library["de"]["translatable.activities-slider-copy4"] = "";
+    library["de"]["translatable.activities-slider-head5"] = "";
+    library["de"]["translatable.activities-slider-copy5"] = "";
 }
 
 {
@@ -151,6 +198,27 @@ function TransMod() {
         $("#popup-comment-3").html(langModule.translate(lang, $("#popup-comment-3").attr("data-token")));
         $("#popup-content-4").html(langModule.translate(lang, $("#popup-content-4").attr("data-token")));
         $("#popup-comment-4").html(langModule.translate(lang, $("#popup-comment-4").attr("data-token")));
+        
+        /* activities sections selectors */
+        $("#activities-head").html(langModule.translate(lang, $("#activities-head").attr("data-token")));
+        $("#activities-copy").html(langModule.translate(lang, $("#activities-copy").attr("data-token")));
+        
+        
+        /* activities slider sections selectors */
+        $("#activities-slider-head1").html(langModule.translate(lang, $("#activities-slider-head1").attr("data-token")));
+        $("#activities-slider-copy1").html(langModule.translate(lang, $("#activities-slider-copy1").attr("data-token")));
+        
+        $("#activities-slider-head2").html(langModule.translate(lang, $("#activities-slider-head2").attr("data-token")));
+        $("#activities-slider-copy2").html(langModule.translate(lang, $("#activities-slider-copy2").attr("data-token")));
+        
+        $("#activities-slider-head3").html(langModule.translate(lang, $("#activities-slider-head3").attr("data-token")));
+        $("#activities-slider-copy3").html(langModule.translate(lang, $("#activities-slider-copy3").attr("data-token")));
+        
+        $("#activities-slider-head4").html(langModule.translate(lang, $("#activities-slider-head4").attr("data-token")));
+        $("#activities-slider-copy4").html(langModule.translate(lang, $("#activities-slider-copy4").attr("data-token")));
+        
+        $("#activities-slider-head5").html(langModule.translate(lang, $("#activities-slider-head5").attr("data-token")));
+        $("#activities-slider-copy5").html(langModule.translate(lang, $("#activities-slider-copy5").attr("data-token")));
         
 	}	
 	
