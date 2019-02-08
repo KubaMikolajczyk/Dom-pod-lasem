@@ -448,8 +448,8 @@ header {
 /*---------------------------------------------*/
 
 .section-activities {
-    padding-top: 90px;
-    padding-bottom: 110px;
+    padding-top: 110px;
+    padding-bottom: 130px;
 }
 
 .bicycle_img{
@@ -486,15 +486,15 @@ header {
 /*---------------------------------------------*/
 
 .section-video{
-    height: 400px;
     padding: 0;
+    height:600px;
 }
 
-.video_open {
+.video_box {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(back_img/hero.jpg);
     color: rgba(154, 154, 154, 0.67);
     height: 350px;
-    width: 100%;
+    width: 90%;
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -505,7 +505,7 @@ header {
     
 }
 
-.video_open:hover {
+.video_box:hover {
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(back_img/hero.jpg)
 }
@@ -521,8 +521,48 @@ header {
     font-size: 400%;
 }
 
+.video-text {
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.video-text h2:after {
+    margin-left: 0;
+}
+
 .video-title {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    font-size: 150%;
+    font-size: 160%;
+    text-align: left;
+}
+
+.video-description {
+    line-height: 145%;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.video-link {
+    cursor: pointer;
+    color: #657ead;
+}
+
+.video-link p {
+    display: inline-block;
+}
+
+.arrow-icon {
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+.house-img {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(40%, -10%);
+    border: 8px solid #fff;
+    overflow: hidden;
+    border-radius: 10px;
 }
