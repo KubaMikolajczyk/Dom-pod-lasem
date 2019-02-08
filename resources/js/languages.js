@@ -57,6 +57,8 @@ function TransMod() {
     library["pl"]["translatable.activities-slider-head5"] = "Darmowe WiFi";
     library["pl"]["translatable.activities-slider-copy5"] = "Rozumiemy, że w czasie odpoczynku możecie chcieć obejrzeć film lub odebrać maila - w naszym domu dostępne jest darmowe wifi.";
     
+    /* VIDEO SECTION */
+    library["pl"]["translatable.video-copy"] = "Zobacz nasz dom";
     
     /* ENGLISH TRANSLATION */
 	library["en"] = new Array();
@@ -110,6 +112,9 @@ function TransMod() {
     library["en"]["translatable.activities-slider-head5"] = "Free WiFi";
     library["en"]["translatable.activities-slider-copy5"] = "We understand that during your stay you might want to watch a movie or answer that one very important mail - therefore we have a free WiFi aviable in our house.";
     
+    /* VIDEO SECTION */
+    library["en"]["translatable.video-copy"] = "See our house";
+    
     /* GERMAN TRANSLATION */
 	library["de"] = new Array();
 	
@@ -159,6 +164,9 @@ function TransMod() {
     library["de"]["translatable.activities-slider-copy4"] = "";
     library["de"]["translatable.activities-slider-head5"] = "";
     library["de"]["translatable.activities-slider-copy5"] = "";
+    
+    /* VIDEO SECTION */
+    library["de"]["translatable.video-copy"] = "";
 }
 
 {
@@ -219,6 +227,9 @@ function TransMod() {
         
         $("#activities-slider-head5").html(langModule.translate(lang, $("#activities-slider-head5").attr("data-token")));
         $("#activities-slider-copy5").html(langModule.translate(lang, $("#activities-slider-copy5").attr("data-token")));
+        
+        /* video section selectors */
+        $("#video-copy").html(langModule.translate(lang, $("#video-copy").attr("data-token")));
         
 	}	
 	

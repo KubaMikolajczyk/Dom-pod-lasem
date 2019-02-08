@@ -385,7 +385,7 @@ header {
 /*---------------------------------------------*/
 
 .section-rooms {
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
     padding-bottom: 90px;
 }
 
@@ -448,6 +448,7 @@ header {
 
 .section-activities {
     padding-top: 90px;
+    padding-bottom: 110px;
 }
 
 .bicycle_img{
@@ -500,6 +501,7 @@ header {
     padding-top: 60px;
     cursor: pointer;
     transition: color 0.4s;
+    
 }
 
 .section-video:hover .video_open {
@@ -522,5 +524,4 @@ header {
     padding-top: 10px;
     padding-bottom: 30px;
     font-size: 150%;
-}
 }
