@@ -386,7 +386,8 @@ header {
 
 .section-rooms {
     background-color: #f7f7f7;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 .rooms-copy {
@@ -485,35 +486,35 @@ header {
 /*---------------------------------------------*/
 
 .section-video{
-    height: 300px;
-    overflow: hidden;
+    height: 400px;
     padding: 0;
 }
 
 .video_open {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(back_img/hero.jpg);
-    background-attachment: fixed;
     color: rgba(154, 154, 154, 0.67);
-    height: 100%;
+    height: 350px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding-top: 60px;
     cursor: pointer;
     transition: color 0.4s;
+    margin: 15px;
+    border-radius: 7%;
+    position: relative;
     
 }
 
-.section-video:hover .video_open {
+.video_open:hover {
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(back_img/hero.jpg)
 }
 
 .video-copy {
-    padding-top: 25px;
-    margin: 0 auto;
-    text-align: center;
-    vertical-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .video-copy ion-icon {
