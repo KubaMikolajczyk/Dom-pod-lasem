@@ -2759,7 +2759,7 @@ figure.overlay img {
     cursor: pointer !important;
 }
 .overlay span.bg {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     opacity: 0;
     z-index: 4;
     position: absolute;
