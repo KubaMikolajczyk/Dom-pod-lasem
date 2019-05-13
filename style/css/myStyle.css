@@ -1,0 +1,134 @@
+/* reusable items */
+
+
+/* popups */
+
+/*-------POPUPS-------*/
+
+.popup_content {
+    /* margin-top: 2%;
+    margin-bottom: 5%; */
+    padding: 20px 10px;
+    width: 80%;
+    height: 100%;
+    background: #fff;
+  }
+  
+  #big_room_popup,
+  #small_room_popup,
+  #living_room_popup,
+  #bathroom_popup{
+    transform: scale(0.8);
+  }
+  .popup_visible #big_room_popup,
+  .popup_visible #small_room_popup,
+  .popup_visible #living_room_popup,
+  .popup_visible #bathroom_popup{
+    transform: scale(1);
+  }
+  
+  .head_popup_img {
+      width: 80%;
+      height: auto;
+      border-radius: 5%;
+  }
+  
+  .small-img {
+      width: 10%;
+      height: auto;
+  }
+  
+  .close_popup_btn {
+      float: right;
+  }
+
+  /*-------ICONS-------*/
+
+    .clickable_icon {
+        color: #555;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .clickable_icon:hover {
+        transform: scale(1.15);
+    }
+  
+  /*------POPUP IMGS--------*/
+  
+  .img-popup {
+      text-align: center;
+      vertical-align: middle;
+      margin: 0 auto;
+      padding: 40px 10px;
+  }
+  
+  .img-popup img {
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+      display: inline-block;
+  }
+  
+
+
+/*Booking mark section*/
+
+.small-row {
+    margin-top: -110px;
+}
+
+.booking-mark-row {
+    width: 9em;
+}
+
+.booking-mark {
+    padding: 10px;
+    border-radius: 5%;
+    border: 1.8px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-column {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-column {
+        width: 60vw;
+    }
+
+    .flex-column p {
+        margin-bottom: .4em;
+        font-size: 1.3em
+    }
+
+    .booking-mark{
+        margin-top: 0;
+        margin-bottom: 1.2em;
+    }
+  }
+
+/*contact */
+
+.email-link {
+    font-size: 0.8em;
+}
