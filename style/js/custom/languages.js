@@ -32,13 +32,20 @@ function TransMod() {
     library["pl"]["translatable.popup-head-4"] = "Łazienki";
     
     /* copy */
-    library["pl"]["translatable.popup-content-1"] = "Duży pokój znajdujący się na pierwszym piętrze. <br> Dwuosobowe komfortowe łóżko w wymiarze queen-size z baldachimem zrobionym z żagla. <br> W pokoju znajduje się duża szafa oraz szafki nocne. <br> Temat przewodni pokoju to żeglarstwo - ponoć wieczorem słychać w nim szum fal";
+    library["pl"]["translatable.popup-content-1"] = "Temat przewodni pokoju to żeglarstwo - ponoć wieczorem słychać w nim szum fal.<br> Duży pokój (około 23 m2), znajdujący się na pierwszym piętrze. W pokoju znajduje się duża szafa, szafki nocne, toaletka z lustrem, komoda z szufladami oraz dwuosobowe komfortowe łóżko w wymiarze queen-size z baldachimem zrobionym z żagla.";
+    
     library["pl"]["translatable.popup-comment-1"] = "&quot; Nasz dom to idealne miejsce dla żeglarzy. Położony w cichej wsi Jagodne Wielkie w pobliżu jeziora. Po powrocie z żeglugi zapewni spokojny odpoczynek całej załodze &quot;";
-    library["pl"]["translatable.popup-content-2"] = "Mniejszy pokój znajdujący się na pierwszym pietrze. <br> Dwa komfortowe jednoosobowe łóżka mogą zostać zestawione w jedno duże łóżko. <br> W pokoju znajduje się duża otwarta szafka na ubrania, stoliki nocne oraz biurko. <br> Temat przewodni pokoju to muzyka - na ścianach wiszą instrumenty i nuty";
-    library["pl"]["translatable.popup-comment-2"] = "&quot; Dom pod lasem to idealne miejsce na nabranie inspiracji - jeżeli jesteś muzykiem - wsłuchując się przez cały dzień w szum drzew i śpiew ptaków - po powrocie do muzycznego pokoju, z pewnością napiszesz coś pięknego &quot;";
-    library["pl"]["translatable.popup-content-3"] = "Duży salon połączony z aneksem kuchennym. <br> Duża kanapa po rozłożeniu zapewnia wygodne miejsce do spania dla dwóch osób. <br> W salonie znajduje się duży stół, kanapa, telewizor oraz kominek <br> W pełni wyposażona kuchnia :  zastawa, czajnik, lodówka, kuchenka elektryczno-gazowa z piekarnikiem, mikrofalówka.";
-    library["pl"]["translatable.popup-comment-3"] = "&quot; Nasz dom jest całoroczny! W zimę dodatkowo ogrzejemy się przy kominku - wieczory na naszej kanapie w gronie rodziny to niezapomniane chwile &quot;";
-    library["pl"]["translatable.popup-content-4"] = "Dwie łazienki - po jednej na piętro. <br> Dolna łazienka jest wyposażona w kabinę prysznicową, toaletę, umywalkę i duże lustro. <br> Łazienka na piętrze zamiast prysznica posiada dużą wannę. <br> Nasz dom jest wyposażony we własny pojemny boiler który nagrzewa wodę tak abyśmy zawsze mogli wykąpać się w ulubionej temperaturze.";
+    
+    library["pl"]["translatable.popup-content-2"] = "Temat przewodni pokoju to muzyka – muzyczne dekoracje, jako wyposażenie pokoju. <br> Mniejszy pokój ( około 13 m2), znajdujący się na pierwszym piętrze. Dwa komfortowe jednoosobowe łóżka mogą zostać zestawione w jedno duże. W pokoju znajduje się otwarta szafka na ubrania, stoliki nocne oraz biurko. ";
+    
+    library["pl"]["translatable.popup-comment-2"] = "&quot; Dom pod lasem to idealne miejsce na nabranie inspiracji - jeżeli jesteś muzykiem – wsłuchaj się w szum drzew i śpiew ptaków - po powrocie do muzycznego pokoju, z pewnością napiszesz piękny utwór &quot;";
+    
+    library["pl"]["translatable.popup-content-3"] = "Temat przewodni to natura – zdjęcia i dekoracje przybliżają nas do otoczenia domu. <br> Duży salon połączony z kuchnią ( razem około 40 m2). W salonie znajduje się stół, kanapa narożna, biblioteczka, stolik kawowy, szafka TV oraz kominek. Narożnik po rozłożeniu zapewnia wygodne miejsce do spania dla dwóch osób. W pełni wyposażona kuchnia: zastawa, czajnik, lodówka, kuchenka elektryczno-gazowa z piekarnikiem, mikrofalówka.";
+    
+    library["pl"]["translatable.popup-comment-3"] = "&quot; Nasz dom jest całoroczny! W zimę dodatkowo ogrzejemy się przy kominku – wieczory w gronie rodziny to niezapomniane chwile. &quot;";
+    
+    library["pl"]["translatable.popup-content-4"] = "Dwie łazienki - po jednej na piętro. Dolna łazienka jest wyposażona w kabinę prysznicową, WC, umywalkę i lustro. Łazienka na piętrze posiada dużą wannę, WC, umywalkę. ";
+    
     library["pl"]["translatable.popup-comment-4"] = "&quot; Nasi goście mogą wybrać między szybkim prysznicem a relaksującą kąpielą - niezależnie od wyboru - wszyscy będą zadowoleni! &quot;";
     
     /* ACTIVITIES SECTION */
