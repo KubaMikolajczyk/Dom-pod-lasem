@@ -1,79 +1,24 @@
-/* reusable items */
+/*-----------------*/
+/*REUSABLE ELEMENTS*/
+/*-----------------*/
 
+/*-------ICONS-------*/
 
-/* popups */
+.clickable_icon {
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+}
 
-/*-------POPUPS-------*/
-
-.popup_content {
-    /* margin-top: 2%;
-    margin-bottom: 5%; */
-    padding: 20px 10px;
-    width: 80%;
-    height: 100%;
-    background: #fff;
-  }
+.clickable_icon:hover {
+    transform: scale(1.15);
+}
   
-  #big_room_popup,
-  #small_room_popup,
-  #living_room_popup,
-  #bathroom_popup{
-    transform: scale(0.8);
-  }
-  .popup_visible #big_room_popup,
-  .popup_visible #small_room_popup,
-  .popup_visible #living_room_popup,
-  .popup_visible #bathroom_popup{
-    transform: scale(1);
-  }
-  
-  .head_popup_img {
-      width: 80%;
-      height: auto;
-      border-radius: 5%;
-  }
-  
-  .small-img {
-      width: 10%;
-      height: auto;
-  }
-  
-  .close_popup_btn {
-      float: right;
-  }
+/*-----------------*/
+/*-----SECTIONS----*/
+/*-----------------*/
 
-  /*-------ICONS-------*/
-
-    .clickable_icon {
-        color: #555;
-        font-size: 30px;
-        cursor: pointer;
-    }
-
-    .clickable_icon:hover {
-        transform: scale(1.15);
-    }
-  
-  /*------POPUP IMGS--------*/
-  
-  .img-popup {
-      text-align: center;
-      vertical-align: middle;
-      margin: 0 auto;
-      padding: 40px 10px;
-  }
-  
-  .img-popup img {
-      max-width: 90%;
-      max-height: 90%;
-      width: auto;
-      height: auto;
-      display: inline-block;
-  }
-  
-
-
-/*Booking mark section*/
+/*BOOKING MARK SECTION*/
 
 .small-row {
     margin-top: -110px;
@@ -127,7 +72,7 @@
     }
   }
 
-/*contact */
+/*CONTACT SECTION*/
 
 .email-link {
     font-size: 0.8em;
