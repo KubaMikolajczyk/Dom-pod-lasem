@@ -135,7 +135,7 @@
       <div class="blog grid-view text-center">
         <div class="isotope row no-gutter text-center">
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 big_room_popup_open"><a href="#"><img src="style/images/content/big_room_square.jpg" alt="" /></a>
+            <figure id="bigroomBtn" class="overlay caption caption-overlay mb-0"><a  href="#!"><img src="style/images/content/big_room_square.jpg" alt="big room picture" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój żeglarski</h3>
@@ -145,7 +145,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
+            <figure id="smallroomBtn" class="overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#!"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój muzyczny</h3>
@@ -155,7 +155,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
+            <figure id="livingroomBtn" class="overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#!"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Salon i kuchnia</h3>
@@ -165,7 +165,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
+            <figure id="bathroomBtn" class="overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#!"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Łazienki</h3>
@@ -518,7 +518,7 @@
 <!--  ROOMS POPUPS  -->
 
 <!--  BIG ROOM POPUP  -->
-<div id="big_room_popup">
+<div id="bigroomModal">
 
     <h3 id="popup-head-1" data-token="translatable.popup-head-1" class="mb-20">Room header</h3>
     <p id="popup-content-1" data-token="translatable.popup-content-1" class="lead">Room content</p>
@@ -528,7 +528,7 @@
 
     
 <!--  SMALL ROOM POPUP  -->   
-<div id="small_room_popup">
+<div id="smallroomModal">
 
     <h3 id="popup-head-2" data-token="translatable.popup-head-2" class="mb-20">Room header</h3>
     <p id="popup-content-2" data-token="translatable.popup-content-2" class="lead">Room content</p>
@@ -538,7 +538,7 @@
        
     
 <!--  LIVING ROOM POPUP  -->   
-<div id="living_room_popup">
+<div id="livingroomModal">
 
     <h3 id="popup-head-3" data-token="translatable.popup-head-3" class="mb-20">Room header</h3>
     <p id="popup-content-3" data-token="translatable.popup-content-3" class="lead">Room content</p>
@@ -548,7 +548,7 @@
        
     
 <!--  BATHROOM POPUP  -->    
-<div id="bathroom_popup">
+<div id="bathroomModal">
 
     <h3 id="popup-head-4" data-token="translatable.popup-head-4" class="mb-20">Room header</h3>
     <p id="popup-content-4" data-token="translatable.popup-content-4" class="lead">Room content</p>
@@ -567,7 +567,6 @@
 <script src="style/js/bootstrap.min.js"></script>
 <script src="style/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script src="style/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendors/js/slider.js"></script>
            
 <!--Template revolution slider extension -->
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
@@ -584,8 +583,6 @@
 <script src="style/js/scripts.js"></script>
 
 <!--CUSTOM SCRIPTS-->
-<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
-<script src="style/js/custom/jquery.magnific-popup.min.js"></script>
 <script src="style/js/custom/languages.js"></script>
 <script src="style/js/custom/popups.js"></script>
 <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
