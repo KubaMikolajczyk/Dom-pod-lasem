@@ -77,3 +77,14 @@
 .email-link {
     font-size: 0.8em;
 }
+
+/*-----------------*/
+/*------MODALS-----*/
+/*-----------------*/
+
+#bigroomModal,
+#smallroomModal,
+#livingroomModal,
+#bathroomModal {
+    display: none;
+}
