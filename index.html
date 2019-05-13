@@ -135,7 +135,7 @@
       <div class="blog grid-view text-center">
         <div class="isotope row no-gutter text-center">
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 big_room_popup_open"><a href="#"><img src="style/images/content/big_room_square.jpg" alt="" /></a>
+            <figure id="bigroomBtn" class="overlay caption caption-overlay mb-0"><a  href="#!"><img src="style/images/content/big_room_square.jpg" alt="big room picture" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój żeglarski</h3>
@@ -145,7 +145,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
+            <figure id="smallroomBtn" class="overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#!"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój muzyczny</h3>
@@ -155,7 +155,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
+            <figure id="livingroomBtn" class="overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#!"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Salon i kuchnia</h3>
@@ -165,7 +165,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure class="overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
+            <figure id="bathroomBtn" class="overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#!"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Łazienki</h3>
@@ -515,166 +515,62 @@
 <!--  POPUPS  -->
 <!--  -----------------    -->
     
-    <!--  ROOMS POPUPS  -->
+<!--  ROOMS POPUPS  -->
+
+<!--  BIG ROOM POPUP  -->
+<div id="bigroomModal" class="modal">
+    <div class="modal-container">
+        <!--  close button  -->
+        <button id="closeBigroomBtn">&times;</button>
+
+        <!--  popup content  -->
+        <h3 id="popup-head-1" data-token="translatable.popup-head-1" class="mb-20">Room header</h3>
+        <p id="popup-content-1" data-token="translatable.popup-content-1" class="lead">Room content</p>
+        <p id="popup-comment-1" data-token="translatable.popup-comment-1">Room content</p>
+    </div>
+</div>
+
     
-    <!--  BIG ROOM POPUP  -->
-    <section id="big_room_popup">
-        <div class="row close_popup_btn">
-            <!-- CLOSING BUTTON -->
-             <ion-icon name="close" class="big_room_popup_close clickable_icon"></ion-icon>
-        </div>
-        <div class="container inner pt-150 pb-150">
-        <div class="boxed">
-          <div class="bg-white shadow rounded">
-            <div class="image-block-wrapper">
-              <div class="image-block col-lg-6">
-                <div class="image-block-bg bg-image" data-image-src="style/images/content/big_room_square.jpg"></div>
-              </div>
-              <!--/.image-block -->
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-6">
-                    <div class="box d-flex">
-                      <div class="align-self-center">
-                        <h3 id="popup-head-1" data-token="translatable.popup-head-1" class="mb-20">Room header</h3>
-                        <p id="popup-content-1" data-token="translatable.popup-content-1" class="lead">Room content</p>
-                        <p id="popup-comment-1" data-token="translatable.popup-comment-1">Room content</p>
-                      </div>
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container-fluid -->
-            </div>
-            <!--/.image-block-wrapper -->
-          </div>
-          <!-- /.bg -->
-        </div>
-        <!-- /.boxed -->
-       </section>
+<!--  SMALL ROOM POPUP  -->   
+<div id="smallroomModal" class="modal">
+    <div class="modal-container">
+        <!--  close button  -->
+        <button id="closeSmallroomBtn">&times;</button>
+
+        <!--  popup content  -->
+        <h3 id="popup-head-2" data-token="translatable.popup-head-2" class="mb-20">Room header</h3>
+        <p id="popup-content-2" data-token="translatable.popup-content-2" class="lead">Room content</p>
+        <p id="popup-comment-2" data-token="translatable.popup-comment-2">Room content</p>
+    </div>
+</div>
        
-       <!--  SMALL ROOM POPUP  -->
+    
+<!--  LIVING ROOM POPUP  -->   
+<div id="livingroomModal" class="modal">
+    <div class="modal-container">
+        <!--  close button  -->
+        <button id="closeLivingroomBtn">&times;</button>
+
+        <!--  popup content  -->
+        <h3 id="popup-head-3" data-token="translatable.popup-head-3" class="mb-20">Room header</h3>
+        <p id="popup-content-3" data-token="translatable.popup-content-3" class="lead">Room content</p>
+        <p id="popup-comment-3" data-token="translatable.popup-comment-3">Room content</p>
+    </div>
+</div>
        
-       <section id="small_room_popup">
-         <div class="close_popup_btn">
-            <!-- CLOSING BUTTON -->
-             <ion-icon name="close" class="small_room_popup_close clickable_icon"></ion-icon>
-        </div>
-        <div class="container inner pt-150 pb-150">
-        <div class="boxed">
-          <div class="bg-white shadow rounded">
-            <div class="image-block-wrapper">
-              <div class="image-block col-lg-6">
-                <div class="image-block-bg bg-image" data-image-src="style/images/content/small_room_square.jpg"></div>
-              </div>
-              <!--/.image-block -->
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-6">
-                    <div class="box d-flex">
-                      <div class="align-self-center">
-                        <h3 id="popup-head-2" data-token="translatable.popup-head-2" class="mb-20">Room header</h3>
-                        <p id="popup-content-2" data-token="translatable.popup-content-2" class="lead">Room content</p>
-                        <p id="popup-comment-2" data-token="translatable.popup-comment-2">Room content</p>
-                      </div>
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container-fluid -->
-            </div>
-            <!--/.image-block-wrapper -->
-          </div>
-          <!-- /.bg -->
-        </div>
-        <!-- /.boxed -->
-       </section>
-       
-       <!--  LIVING ROOM POPUP  -->
-       
-       <section id="living_room_popup">
-         <div class="close_popup_btn">
-            <!-- CLOSING BUTTON -->
-            <ion-icon name="close" class="living_room_popup_close clickable_icon"></ion-icon>
-        </div>
-        <div class="container inner pt-150 pb-150">
-        <div class="boxed">
-          <div class="bg-white shadow rounded">
-            <div class="image-block-wrapper">
-              <div class="image-block col-lg-6">
-                <div class="image-block-bg bg-image" data-image-src="style/images/content/living_room_square.jpg"></div>
-              </div>
-              <!--/.image-block -->
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-6">
-                    <div class="box d-flex">
-                      <div class="align-self-center">
-                        <h3 id="popup-head-3" data-token="translatable.popup-head-3" class="mb-20">Room header</h3>
-                        <p id="popup-content-3" data-token="translatable.popup-content-3" class="lead">Room content</p>
-                        <p id="popup-comment-3" data-token="translatable.popup-comment-3">Room content</p>
-                      </div>
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container-fluid -->
-            </div>
-            <!--/.image-block-wrapper -->
-          </div>
-          <!-- /.bg -->
-        </div>
-        <!-- /.boxed -->
-       </section>
-       
-       <!--  BATHROOM POPUP  -->
-       
-       <section id="bathroom_popup">
-         <div class="close_popup_btn">
-            <!-- CLOSING BUTTON -->
-             <ion-icon name="close" class="bathroom_popup_close clickable_icon"></ion-icon>
-        </div>
-        <div class="container inner pt-150 pb-150">
-        <div class="boxed">
-          <div class="bg-white shadow rounded">
-            <div class="image-block-wrapper">
-              <div class="image-block col-lg-6">
-                <div class="image-block-bg bg-image" data-image-src="style/images/content/bathroom_square.jpg"></div>
-              </div>
-              <!--/.image-block -->
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-6">
-                    <div class="box d-flex">
-                      <div class="align-self-center">
-                        <h3 id="popup-head-4" data-token="translatable.popup-head-4" class="mb-20">Room header</h3>
-                        <p id="popup-content-4" data-token="translatable.popup-content-4" class="lead">Room content</p>
-                        <p id="popup-comment-4" data-token="translatable.popup-comment-4">Room content</p>
-                      </div>
-                    </div>
-                    <!-- /.box -->
-                  </div>
-                  <!--/column -->
-                </div>
-                <!--/.row -->
-              </div>
-              <!--/.container-fluid -->
-            </div>
-            <!--/.image-block-wrapper -->
-          </div>
-          <!-- /.bg -->
-        </div>
-        <!-- /.boxed -->
-       </section>
+    
+<!--  BATHROOM POPUP  -->    
+<div id="bathroomModal" class="modal">
+    <div class="modal-container">
+        <!--  close button  -->
+        <button id="closeBathroomBtn">&times;</button>
+
+        <!--  popup content  -->
+        <h3 id="popup-head-4" data-token="translatable.popup-head-4" class="mb-20">Room header</h3>
+        <p id="popup-content-4" data-token="translatable.popup-content-4" class="lead">Room content</p>
+        <p id="popup-comment-4" data-token="translatable.popup-comment-4">Room content</p>
+    </div>
+</div>
        
            
 <!--  -----------------    --> 
@@ -687,7 +583,6 @@
 <script src="style/js/bootstrap.min.js"></script>
 <script src="style/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script src="style/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendors/js/slider.js"></script>
            
 <!--Template revolution slider extension -->
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
@@ -704,8 +599,6 @@
 <script src="style/js/scripts.js"></script>
 
 <!--CUSTOM SCRIPTS-->
-<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
-<script src="style/js/custom/jquery.magnific-popup.min.js"></script>
 <script src="style/js/custom/languages.js"></script>
 <script src="style/js/custom/popups.js"></script>
 <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
