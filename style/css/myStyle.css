@@ -98,7 +98,7 @@
 
 .modal-container {
     background-color: #fff;
-    padding: 120px 40px;
+    padding: 50px 40px 120px 40px;
     -webkit-box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
     -moz-box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
     box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
@@ -107,7 +107,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 20% 5%;
-    grid-template-rows: 8% auto 20% 10% 30%;
+    grid-template-rows: 10% auto 20% 10% 30%;
     grid-template-areas: 
         " . headImg headImg  modalHeader  modalHeader closeBtn"
         " . headImg headImg modalContent modalContent     .   "
@@ -191,7 +191,7 @@
     grid-area: modalContent;
     justify-self: start;
     width: 85%;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .grid-comment {
