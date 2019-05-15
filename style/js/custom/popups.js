@@ -1,6 +1,15 @@
 // DISCLOSURE --> all modal features are setted up in style/css/myStyle.css
 
-//Setting all elements variables
+
+// -----------------
+//VARIABLES
+
+
+// setting body variable for non scrolling effect
+var body = document.getElementsByTagName('body')[0];
+
+// ----------------------------
+// ROOM MODAL CONTROL VARIABLES
 
 // Setting room picture buttons to variables
 var bigroomBtn, smallroomBtn, livingroomBtn, bathroomBtn;
@@ -9,7 +18,7 @@ smallroomBtn = document.getElementById('smallroomBtn');
 livingroomBtn = document.getElementById('livingroomBtn');
 bathroomBtn = document.getElementById("bathroomBtn");
 
-//Setting modal variables
+//Setting room modal variables
 var bigroomModal, smallroomModal, livingroomModal, bathroomModal;
 bigroomModal = document.getElementById('bigroomModal');
 smallroomModal = document.getElementById('smallroomModal');
@@ -23,12 +32,24 @@ closeSmallroomBtn = document.getElementById('closeSmallroomBtn');
 closeLivingroomBtn = document.getElementById('closeLivingroomBtn');
 closeBathroomBtn = document.getElementById('closeBathroomBtn');
 
-// setting body variable for non scrolling effect
-var body = document.getElementsByTagName('body')[0];
+
+// ----------------------------
+// GALLERY MODAL CONTROL VARIABLES
+
+// setting gallery picture btn to variables
+var galleryBgRoomBtn1;
+galleryBgRoomBtn1 = document.getElementById('galleryBgRoomBtn1');
+
+// Setting gallery modal variables
+var galleryBgRoom1;
+galleryBgRoom1 = document.getElementById('galleryBgRoom1');
 
 
 
-//SET UP modal OPENING LISTENERS
+//---------------------------
+// LISTENERS
+
+//SET UP room modal OPENING LISTENERS
 bigroomBtn.addEventListener('click', function openBigRoomModal() {
     openModal('bigroom');
 });
@@ -62,9 +83,19 @@ closeBathroomBtn.addEventListener('click', function closeBathroomModal() {
     closeModal('bathroom');
 });
 
+
+//-----------------------------
+//SET UP gallery modal OPENING LISTENERS
+galleryBgRoomBtn1.addEventListener('click', function galleryBgRoomBtn1() {
+    openModal('galleryBg1');
+})
+
+
 //open modal by simply changing it display features to flex from none
 function openModal(room) {
     switch(room){
+            
+        // ROOMS
         case 'bigroom':
             bigroomModal.style.display = "flex";
             body.style.overflow = "hidden";
@@ -81,6 +112,14 @@ function openModal(room) {
             bathroomModal.style.display = "flex";
             body.style.overflow = "hidden";
             break;
+        
+        // GALLERY 
+        case 'galleryBg1':
+            console.log("lol");
+            galleryBgRoom1.style.display = "flex";
+            break;
+            
+        // DEFAULT
         default:
             console.log("no such modal exists - look in style/js/popups.js")
     }

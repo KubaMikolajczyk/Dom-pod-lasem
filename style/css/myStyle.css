@@ -96,6 +96,24 @@
     align-items: center;
 }
 
+.galleryModal{
+    display: none;
+    position: fixed;
+    z-index: 1041;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryModal .big-img {
+    height: 70%;
+}
+
 .modal-container {
     background-color: #fff;
     padding: 50px 40px 120px 40px;
