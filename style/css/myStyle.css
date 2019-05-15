@@ -90,5 +90,130 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryModal{
+    display: none;
+    position: fixed;
+    z-index: 1041;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryModal .big-img {
+    height: 70%;
+}
+
+.modal-container {
+    background-color: #fff;
+    padding: 50px 40px 120px 40px;
+    -webkit-box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
+    -moz-box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
+    box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
+    
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 20% 5%;
+    grid-template-rows: 10% auto 20% 10% 30%;
+    grid-template-areas: 
+        " . headImg headImg  modalHeader  modalHeader closeBtn"
+        " . headImg headImg modalContent modalContent     .   "
+        " . headImg headImg modalComment modalComment     .   "
+        " . .         .           .            .          .   "
+        " . galleryImg1 galleryImg2 galleryImg3 galleryImg4  .  " 
+}
+
+.hover-gallery {
+    transition: .3s;
+}
+
+.hover-gallery:hover {
+    transform: scale(0.97);
+}
+
+.grid-headImg {
+    grid-area: headImg;
+    object-fit: cover;
+    object-position: 30% 60%;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.grid-galleryImg1 {
+    grid-area: galleryImg1;
+    object-fit: cover;
+    height: 100%;
+    justify-self: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-galleryImg2 {
+    grid-area: galleryImg2;
+    object-fit: cover;
+    height: 100%;
+    justify-self: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-galleryImg3 {
+    grid-area: galleryImg3;
+    object-fit: cover;
+    height: 100%;
+    justify-self: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-galleryImg4 {
+    grid-area: galleryImg4;
+    object-fit: cover;
+    height: 100%;
+    justify-self: start;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-closeBtn {
+    grid-area: closeBtn;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    align-self: start;
+    
+}
+
+.grid-header {
+    grid-area: modalHeader;
+    justify-self: start;
+    font-size: 30px;
+}
+
+.grid-content {
+    grid-area: modalContent;
+    justify-self: start;
+    width: 85%;
+    font-size: 18px;
+}
+
+.grid-comment {
+    grid-area: modalComment;
+    justify-self: start;
+    width: 80%;
 }
