@@ -135,7 +135,7 @@
       <div class="blog grid-view text-center">
         <div class="isotope row no-gutter text-center">
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure id="bigroomBtn" class="overlay caption caption-overlay mb-0"><a  href="#!"><img src="style/images/content/big_room_square.jpg" alt="big room picture" /></a>
+            <figure class="openBtn overlay caption caption-overlay mb-0"><a  href="#!"><img src="style/images/content/big_room_square.jpg" alt="big room picture" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój żeglarski</h3>
@@ -145,7 +145,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure id="smallroomBtn" class="overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#!"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
+            <figure class="openBtn overlay caption caption-overlay mb-0 small_room_popup_open"><a href="#!"> <img src="style/images/content/small_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Pokój muzyczny</h3>
@@ -155,7 +155,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure id="livingroomBtn" class="overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#!"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
+            <figure class="openBtn overlay caption caption-overlay mb-0 living_room_popup_open"><a href="#!"> <img src="style/images/content/living_room_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Salon i kuchnia</h3>
@@ -165,7 +165,7 @@
           </div>
           <!--/column -->
           <div class="item grid-sizer col-sm-6 col-md-6 col-lg-3 mb-0">
-            <figure id="bathroomBtn" class="overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#!"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
+            <figure class="openBtn overlay caption caption-overlay mb-0 bathroom_popup_open"><a href="#!"> <img src="style/images/content/bathroom_square.jpg" alt="" /></a>
               <figcaption class="d-flex">
                 <div class="align-self-center mx-auto">
                   <h3 class="text-uppercase mb-0">Łazienki</h3>
@@ -521,11 +521,11 @@
 
     
 <!--  BIG ROOM POPUP  -->
-<div id="bigroomModal" class="modal">
+<div id="bigroomModal" class="modal modalitem">
     <div class="modal-container">
         
         <!--  close button  -->
-        <button class="grid-closeBtn" id="closeBigroomBtn">&times;</button>
+        <button class="grid-closeBtn closeBtn" id="closeBigroomBtn">&times;</button>
         
         <!--   head img     -->
         <img class="grid-headImg hover-gallery" src="style/images/content/big_room_square.jpg">
@@ -536,22 +536,22 @@
         <p id="popup-comment-1" data-token="translatable.popup-comment-1" class="grid-comment">Room content</p>
         
         <!--    gallery imgs    -->
-        <img id="galleryBgRoomBtn1" class="grid-galleryImg1 hover-gallery" src="style/images/content/bigroom1.JPG">
+        <img class="grid-galleryImg1 hover-gallery openBtn" src="style/images/content/bigroom1.JPG">
         
-        <img id="galleryBgRoomBtn2"  class="grid-galleryImg2 hover-gallery" src="style/images/content/bigroom2.JPG">
+        <img class="grid-galleryImg2 hover-gallery openBtn" src="style/images/content/bigroom2.JPG">
         
-        <img id="galleryBgRoomBtn3"  class="grid-galleryImg3 hover-gallery" src="style/images/content/bigroom3.jpg">
+        <img class="grid-galleryImg3 hover-gallery openBtn" src="style/images/content/bigroom3.jpg">
         
-        <img id="galleryBgRoomBtn4"  class="grid-galleryImg4 hover-gallery" src="style/images/content/bigroom4.jpg">
+        <img class="grid-galleryImg4 hover-gallery openBtn" src="style/images/content/bigroom4.jpg">
     </div>
 </div>
 
     
 <!--  SMALL ROOM POPUP  -->   
-<div id="smallroomModal" class="modal">
+<div id="smallroomModal" class="modal modalitem">
     <div class="modal-container">
         <!--  close button  -->
-        <button class="grid-closeBtn"  id="closeSmallroomBtn">&times;</button>
+        <button class="grid-closeBtn closeBtn"  id="closeSmallroomBtn">&times;</button>
         
         <!--   head img     -->
         <img class="grid-headImg hover-gallery" src="style/images/content/small_room_square.jpg">
@@ -563,19 +563,22 @@
         <p id="popup-comment-2" data-token="translatable.popup-comment-2" class="grid-comment">Room content</p>
         
         <!--    gallery imgs    -->
-        <img class="grid-galleryImg1 hover-gallery" src="style/images/content/smallroom1.jpg">
-        <img class="grid-galleryImg2 hover-gallery" src="style/images/content/smallroom2.jpg">
-        <img class="grid-galleryImg3 hover-gallery" src="style/images/content/smallroom3.jpg">
-        <img class="grid-galleryImg4 hover-gallery" src="style/images/content/smallroom4.jpg">
+        <img class="grid-galleryImg1 hover-gallery openBtn" src="style/images/content/smallroom1.jpg">
+        
+        <img class="grid-galleryImg2 hover-gallery openBtn" src="style/images/content/smallroom2.jpg">
+        
+        <img class="grid-galleryImg3 hover-gallery openBtn" src="style/images/content/smallroom3.jpg">
+        
+        <img class="grid-galleryImg4 hover-gallery openBtn" src="style/images/content/smallroom4.jpg">
     </div>
 </div>
        
     
 <!--  LIVING ROOM POPUP  -->   
-<div id="livingroomModal" class="modal">
+<div id="livingroomModal" class="modal modalitem">
     <div class="modal-container">
         <!--  close button  -->
-        <button class="grid-closeBtn"  id="closeLivingroomBtn">&times;</button>
+        <button class="grid-closeBtn closeBtn"  id="closeLivingroomBtn">&times;</button>
         
         <!--   head img     -->
         <img class="grid-headImg hover-gallery" src="style/images/content/living_room_square.jpg">
@@ -586,19 +589,22 @@
         <p id="popup-comment-3" data-token="translatable.popup-comment-3" class="grid-comment">Room content</p>
         
         <!--    gallery imgs    -->
-        <img class="grid-galleryImg1 hover-gallery" src="style/images/content/livingroom1.jpg">
-        <img class="grid-galleryImg2 hover-gallery" src="style/images/content/livingroom2.jpg">
-        <img class="grid-galleryImg3 hover-gallery" src="style/images/content/livingroom3.jpg">
-        <img class="grid-galleryImg4 hover-gallery" src="style/images/content/livingroom4.jpg">
+        <img class="grid-galleryImg1 hover-gallery openBtn" src="style/images/content/livingroom1.jpg">
+        
+        <img class="grid-galleryImg2 hover-gallery openBtn" src="style/images/content/livingroom2.jpg">
+        
+        <img class="grid-galleryImg3 hover-gallery openBtn" src="style/images/content/livingroom3.jpg">
+        
+        <img class="grid-galleryImg4 hover-gallery openBtn" src="style/images/content/livingroom4.jpg">
     </div>
 </div>
        
     
 <!--  BATHROOM POPUP  -->    
-<div id="bathroomModal" class="modal">
+<div id="bathroomModal" class="modal modalitem">
     <div class="modal-container">
         <!--  close button  -->
-        <button class="grid-closeBtn"  id="closeBathroomBtn">&times;</button>
+        <button class="grid-closeBtn closeBtn"  id="closeBathroomBtn">&times;</button>
         
         <!--   head img     -->
         <img class="grid-headImg hover-gallery" src="style/images/content/bathroom_square.jpg">
@@ -609,10 +615,13 @@
         <p id="popup-comment-4" data-token="translatable.popup-comment-4" class="grid-comment">Room content</p>
         
         <!--    gallery imgs    -->
-        <img class="grid-galleryImg1 hover-gallery" src="style/images/content/bathroom1.jpg">
-        <img class="grid-galleryImg2 hover-gallery" src="style/images/content/bathroom2.jpg">
-        <img class="grid-galleryImg3 hover-gallery" src="style/images/content/bathroom3.jpg">
-        <img class="grid-galleryImg4 hover-gallery" src="style/images/content/bathroom4.jpg">
+        <img class="grid-galleryImg1 hover-gallery gallery-item" src="style/images/content/bathroom1.jpg">
+        
+        <img class="grid-galleryImg2 hover-gallery gallery-item" src="style/images/content/bathroom2.jpg">
+        
+        <img class="grid-galleryImg3 hover-gallery gallery-item" src="style/images/content/bathroom3.jpg">
+        
+        <img class="grid-galleryImg4 hover-gallery gallery-item" src="style/images/content/bathroom4.jpg">
     </div>
 </div>
 
@@ -623,28 +632,76 @@
 
 <!-- BIG ROOM -->
     
-<div id="galleryBgRoom1" class="galleryModal">
+<div class="modal galleryModal">
     <img class="big-img" src="style/images/content/bigroom1.JPG">
 </div>
     
-<div id="galleryBgRoom2" class="galleryModal">
+<div class="modal galleryModal">
     <img class="big-img" src="style/images/content/bigroom2.JPG">
 </div>
     
-<div id="galleryBgRoom3" class="galleryModal">
+<div class="modal galleryModal">
     <img class="big-img" src="style/images/content/bigroom3.JPG">
 </div>
     
-<div id="galleryBgRoom4" class="galleryModal">
+<div class="modal galleryModal">
     <img class="big-img" src="style/images/content/bigroom4.JPG">
 </div>
     
 <!-- SMALL ROOM -->
+
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/smallroom1.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/smallroom2.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/smallroom3.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/smallroom4.JPG">
+</div>
     
 <!-- LIVING ROOM -->
+
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/livingroom1.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/livingroom2.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/livingroom3.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/livingroom4.JPG">
+</div>
     
 <!-- BATHROOM -->
-           
+
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/bathroom1.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/bathroom2.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/bathroom3.JPG">
+</div>
+    
+<div class="modal galleryModal">
+    <img class="big-img" src="style/images/content/bathroom4.JPG">
+</div>
+    
 <!--  -----------------    --> 
 <!-- JS SCRIPTS CONNCTIONS-->
 <!--  -----------------    -->
