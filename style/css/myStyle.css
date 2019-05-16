@@ -82,7 +82,7 @@
 /*------MODALS-----*/
 /*-----------------*/
 
-.modal{
+.modalitem{
     display: none;
     position:fixed;
     z-index: 1040;
@@ -112,9 +112,14 @@
 
 .galleryModal .big-img {
     height: 70%;
+    animation-name: modalopen;
+    animation-duration: 1s;
 }
 
 .modal-container {
+    animation-name: modalopen;
+    animation-duration: 1s;
+    
     background-color: #fff;
     padding: 50px 40px 120px 40px;
     -webkit-box-shadow: 6px 6px 12px -8px rgba(112,112,112,0.93);
@@ -132,6 +137,11 @@
         " . headImg headImg modalComment modalComment     .   "
         " . .         .           .            .          .   "
         " . galleryImg1 galleryImg2 galleryImg3 galleryImg4  .  " 
+}
+
+@keyframes modalopen {
+    from{opacity: 0}
+    to{opacity: 1}
 }
 
 .hover-gallery {
